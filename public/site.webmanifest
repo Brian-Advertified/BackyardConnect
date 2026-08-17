@@ -1,0 +1,9 @@
+{
+  "name": "BackyardConnect.co.za",
+  "short_name": "BackyardConnect",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#181818",
+  "icons": [{ "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

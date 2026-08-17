@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/*.sqlite
+data/*.sqlite-*
+data/*.db
+logs/
+.DS_Store
+*.log
+coverage/
+backyardconnect-production.zip
