@@ -14,7 +14,7 @@ test('renders approved public wording and current provider', () => {
   assert.match(html, /class="package-provider-logo" src="\/voda-2\.png"/);
   assert.match(html, /data-package-choice=/);
   assert.match(html, /class="group-logo" src="\/byclogo-2\.png"/);
-  assert.match(html, /src="\/byclogo-1\.png"/);
+  assert.match(html, /src="\/byc-footer\.png"/);
   assert.doesNotMatch(html, /BackyardFinance|Backyard Finance/);
   assert.doesNotMatch(html, /MTN|Telkom/);
 });
