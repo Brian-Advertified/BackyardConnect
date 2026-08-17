@@ -2,11 +2,11 @@
 
 Production-grade standalone connectivity enquiry platform for backyard rental-property connectivity.
 
-BackyardConnect is intentionally simple for the property owner: the public website explains the current verified partner offers, captures a short consented enquiry and passes the enquiry to the current connectivity partner. It is **not** a connectivity application, coverage checker, installation manager or tenant Wi-Fi portal.
+BackyardConnect is intentionally simple for the property owner: the public website explains the current verified partner offers, captures a short consented enquiry and passes the enquiry to the connectivity partner. It is **not** a connectivity application, coverage checker, installation manager or tenant Wi-Fi portal.
 
 ## Included
 
-- Approved Backyard Finance charcoal, white and warm-grey visual system
+- Approved BackyardConnect charcoal, white and warm-grey visual system
 - Standalone BackyardConnect.co.za branding
 - Recreated high-resolution desktop and mobile hero artwork
 - Current Vodacom Business partner and package catalogue
@@ -60,4 +60,4 @@ The database remains the source of truth even when the webhook destination is un
 
 ## Data note
 
-The package values are seeded from the supplied Vodacom Business × Backyard Finance proposition. Coverage, eligibility, final pricing and terms remain subject to Vodacom confirmation.
+The package values are seeded from the supplied Vodacom Business proposition. Coverage, eligibility, final pricing and terms remain subject to Vodacom confirmation.

@@ -11,4 +11,4 @@
 
 ## Reporting a vulnerability
 
-Send a private report to the security contact configured for the BackyardFinance group. Do not include customer information in ordinary email unless an approved secure channel is provided.
+Send a private report to the security contact configured for BackyardConnect. Do not include customer information in ordinary email unless an approved secure channel is provided.

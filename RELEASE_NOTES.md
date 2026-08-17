@@ -14,7 +14,7 @@ This release implements the approved standalone BackyardConnect.co.za connectivi
 
 ## Public experience
 
-- Backyard Finance black, white, charcoal and warm-grey design language
+- BackyardConnect black, white, charcoal and warm-grey design language
 - Recreated desktop and mobile rental-neighbourhood imagery, not cropped from the mockup
 - Current Vodacom Business partner panel
 - Four current package guidance cards

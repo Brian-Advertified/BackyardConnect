@@ -28,6 +28,8 @@
 .home-flow-steps span{font-weight:700;font-size:14px}
 .package-prefilled{border-color:#a8a29e;box-shadow:0 10px 30px rgba(24,24,24,.07)}
 .package-prefilled #packageSlug{border-color:#181818;box-shadow:0 0 0 2px rgba(24,24,24,.08)}
+.partner-lockup .group-logo{width:138px;height:auto;object-fit:contain;flex:0 1 138px}
+@media(max-width:720px){.partner-lockup .group-logo{width:124px;flex-basis:124px}}
 
 /* Home page spacing */
 .hero-copy h1{margin-bottom:24px}
