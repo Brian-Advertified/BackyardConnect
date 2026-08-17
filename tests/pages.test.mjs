@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { renderPage } from '../lib/pages.mjs';
 
-const config = { siteOrigin: 'http://localhost:3000', contactEmail: 'hello@example.com', contactPhone: '', businessHours: 'Weekdays' };
+const config = { siteOrigin: 'http://localhost:3000', contactEmail: 'connect@backyardconnect.co.za', contactPhone: '', businessHours: 'Weekdays' };
 const packages = [{ slug:'vodacom-fwa-50', name:'FWA 50 Mbps', monthly_fee_cents:64900, min_rooms:6, max_rooms:10, description:'Test', is_featured:1 }];
 
 test('renders approved public wording and current provider', () => {
@@ -10,10 +10,11 @@ test('renders approved public wording and current provider', () => {
   assert.match(html, /Connect your/);
   assert.match(html, /rental rooms/);
   assert.match(html, /Vodacom Business/);
-  assert.match(html, /src="\/vodacom\.png"/);
-  assert.match(html, /package-provider-logo/);
+  assert.match(html, /class="partner-provider-logo" src="\/voda-1\.png"/);
+  assert.match(html, /class="package-provider-logo" src="\/voda-2\.png"/);
   assert.match(html, /data-package-choice=/);
-  assert.match(html, /class="group-logo" src="\/assets\/backyardconnect-logo\.svg"/);
+  assert.match(html, /class="group-logo" src="\/byclogo-2\.png"/);
+  assert.match(html, /src="\/byclogo-1\.png"/);
   assert.doesNotMatch(html, /BackyardFinance|Backyard Finance/);
   assert.doesNotMatch(html, /MTN|Telkom/);
 });
