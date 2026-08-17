@@ -10,6 +10,7 @@ test('renders approved public wording and current provider', () => {
   assert.match(html, /Connect your/);
   assert.match(html, /rental rooms/);
   assert.match(html, /Vodacom Business/);
+  assert.match(html, /src="\/vodacom\.png"/);
   assert.match(html, /package-provider-logo/);
   assert.match(html, /data-package-choice=/);
   assert.match(html, /class="group-logo" src="\/assets\/backyardconnect-logo\.svg"/);
