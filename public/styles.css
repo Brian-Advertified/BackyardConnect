@@ -29,9 +29,11 @@
 .home-flow-steps span{font-weight:700;font-size:14px}
 .package-prefilled{border-color:#a8a29e;box-shadow:0 10px 30px rgba(24,24,24,.07)}
 .package-prefilled #packageSlug{border-color:#181818;box-shadow:0 0 0 2px rgba(24,24,24,.08)}
-.partner-lockup .partner-provider-logo{width:150px;height:auto;object-fit:contain;flex:0 1 150px}
-.partner-lockup .group-logo{width:138px;height:auto;object-fit:contain;flex:0 1 138px}
-@media(max-width:720px){.partner-lockup .partner-provider-logo{width:132px;flex-basis:132px}.partner-lockup .group-logo{width:124px;flex-basis:124px}}
+.partner-lockup{display:grid;grid-template-columns:minmax(0,1fr) 1px minmax(0,1fr);align-items:center;gap:18px}
+.partner-lockup .partner-divider{width:1px;height:42px;justify-self:center}
+.partner-lockup .partner-provider-logo{width:100%;max-width:150px;height:auto;object-fit:contain;justify-self:center}
+.partner-lockup .group-logo{width:100%;max-width:138px;height:auto;object-fit:contain;justify-self:center}
+@media(max-width:720px){.partner-lockup{gap:12px}.partner-lockup .partner-provider-logo{max-width:132px}.partner-lockup .group-logo{max-width:124px}}
 
 /* Home page spacing */
 .hero-copy h1{margin-bottom:24px}
